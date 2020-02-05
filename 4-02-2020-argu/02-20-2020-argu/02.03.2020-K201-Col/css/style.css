@@ -1,0 +1,208 @@
+
+#header .menu{
+    margin-right:20px ;
+
+
+}
+#header .menu li{
+    padding: 15px;
+
+}
+#header .navico i{
+    padding-left: 15px;
+}#top-slider .slide-middle{
+    padding: 6em 0;
+
+}
+
+#top-slider h1{
+    /* font-size: 4em; */
+    margin: 20px 0;
+    padding: 15px 0;
+    position: relative;
+
+}#top-slider h1::after{
+    content:  '';
+    position: absolute;
+    height:3px ;
+    width: 50px;
+    left: 0;
+    bottom: 0;
+    background: gold;
+
+}
+
+#top-slider h4{
+    font-size: 1.2em;
+}
+#top-slider p{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+ #top-slider{
+     background: url(../photo/mr_slide_4.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     color: white;
+ } 
+ #top-slider button{
+     padding: 12px 35px;
+     font-size: 1.2em;
+     margin: 15px 0;
+     border: none;
+     background: goldenrod;
+     border-radius: 20px;
+
+
+ }
+
+ .img-rotate img{
+     animation: ani 4s infinite linear;
+ }
+ @keyframes ani{
+     from{
+         transform: rotate(0deg);
+
+     }to{
+         transform: rotate(360deg);
+     }
+ }
+ .clear{
+     clear: both;
+ }
+ #about{
+     margin: 40px 70px;
+    
+
+ }
+#about h1{
+    font-size: 3em;
+    color: rgb(36, 34, 34);
+    position: relative;
+}
+ #about a{
+     font-size: 1.4em;
+ }
+ #about p{
+     font-size: 1.2em;
+ }
+ #about h1::after{
+     content:'' ;
+     position: absolute;
+     height: 3px;
+     width: 70px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background:rgb(247, 172, 119);
+
+ }
+ #about button{
+    padding: 10px 60px;
+    font-size: 1.2em;
+    margin: 15px 0;
+    border: none;
+    border-radius: 20px;
+    background: rgb(245, 165, 108);
+}
+#about button:hover{background: rgb(22, 22, 34);
+
+}
+#icon{
+    margin: 15px 70px;
+}
+#icon .icon-tim i{
+    padding: 25px;
+    border-radius: 50%;
+    background: rgb(22, 22, 34);
+    color: white;
+    position: relative;
+
+    box-sizing: border-box;
+    animation: ani .7s infinite ;
+}
+@keyframes ani{
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(45deg);
+    }
+}
+#cabinets{
+    background: url(../photo/bg_para_trans.png) ;
+background-color: rgb(141, 135, 135);
+    color: white;
+    width: 100%;
+    padding: 40px 60px;
+    align-items: center;
+    
+    
+}
+ #cabinets .cab-top{
+        overflow: hidden;
+    
+ }
+
+#cabinets .cab-top img{
+    background: rgb(66, 65, 65); 
+}
+#cabinets h1{
+    font-size: 2em;
+    position: relative;
+
+}
+#cabinets h1::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 70px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: chocolate;
+
+}
+#cabinets a{
+    font-size: 1.3em;
+    
+}
+#cabinets .cab-top button{
+    padding: 15px 25px;
+    font-size: 1.2em;
+    margin: 15px 0;
+    border-radius: 20px;
+    color: white;
+background: rgb(235, 180, 79) ;
+}
+#cabinets .cab-top button:hover{
+    background: rgb(82, 80, 80);
+}
+#cabinets .cab-top :hover img{
+color: rgb(112, 111, 111);
+    transform: scale(1.08);
+}
+#cabinets .cab-top h2{
+    text-align: center;
+    position: relative;
+}
+#cabinets .cab-top h2::after{
+    content: '';
+    padding: 0 100px;
+    height: 2px;
+    display: block;
+    width:50px ;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background: chocolate;
+    transform: translate(4s);
+}
+#cabinets .cab-top h2::after:hover{
+    transform: scale(.4s);
+
+}
